@@ -1,0 +1,563 @@
+## Aula 1 - Conhecendo os dados
+
+#### Projeto do curso
+
+Nós estamos trabalhando em um projeto de uma empresa de People Analytics chamada Tech Safe.
+
+O nosso objetivo principal será realizar uma análise exploratória e responder perguntas levantadas pela Tech Safe.
+
+Ao longo do curso iremos responder diversas perguntas sobre os dados fornecidos pela empresa.
+
+Para isso, vamos utilizar a linguagem de programação R.
+
+### Projeto da aula
+
+A primeira tabela que vamos criar, será a de Colaboradores. Nessa tabela, teremos informações como: Nome, Idade, Salário, Telefone Fixo e Trabalho Remoto.
+
+Segue abaixo a tabela que a Tech passou para trabalharmos:
+
+| Nome            | Idade | Salário | Telefone Fixo    | Trabalho Remoto |
+|-----------------|-------|---------|------------------|-----------------|
+| Ana Silva       | 28    | 6230.50 | Não possui       | Sim             |
+| Carlos Oliveira | 35    | 7500.75 | \(11\) 1234-5678 | Sim             |
+| Maria Santos    | 40    | 8000.25 | \(21\) 9876-5432 | Não             |
+| João Costa      | 32    | 2460.80 | Não possui       | Sim             |
+| Fernanda Lima   | 27    | 4230.35 | \(31\) 8765-4321 | Sim             |
+
+```{r}
+ana_silva <- c('Ana Silva', 28, 6230.50, 'Não Possui', TRUE)
+carlos_oliveira <- c('Carlos Oliveira', 35, 7500.75, '(11) 1234-5678', TRUE)
+maria_santos <- c('Maria Santos', 40, 8000.25, '(21)9876-5432', FALSE)
+joao_costa <- c('João Costa', 32, 2460.80, 'Não Possui', TRUE)
+fernanda_lima <- c('Fernanda Lima', 27, 4230.35, '(31)8765-4321', TRUE)
+```
+
+```{r}
+nota  <- 5.2
+idade  <- 20
+frase <- "Olá, mundo"
+cadastrado <- TRUE
+data_atual <- as.Date("2024-01-24")
+
+# Verificando os tipos de dados
+cat("nota é do tipo:", class(nota), "\n")
+cat("idade é do tipo:", class(idade), "\n")
+cat("frase é do tipo:", class(frase), "\n")
+cat("cadastrado é do tipo:", class(cadastrado), "\n")
+cat("data_atual é do tipo:", class(data_atual), "\n")
+```
+
+```{r}
+colab_names <- c(ana_silva, carlos_oliveira, maria_santos, joao_costa, fernanda_lima)
+```
+
+```{r}
+matriz_colab <- matrix(colab_names, nrow = 5, byrow = TRUE)
+matriz_colab
+```
+
+```{r}
+rownames(matriz_colab) <- c('Colaboradora Ana', 'Colaborador Carlos', 'Colaboradora Maria', 'Colaborador João Costa', 'Colaboradora Fernanda')
+colnames(matriz_colab) <- c('Nome', 'Idade', 'Salário', 'Telefone', 'Trabalho Remoto')
+matriz_colab
+```
+
+### Exercício Desafio Aula 1
+
+```{r}
+tri_1 <- c(25, 30, 22, 28, 18)
+tri_2 <- c(20, 15, 22, 28, 32)
+tri_3 <- c(30, 35, 10, 15, 8)
+tri_4 <- c(12, 28, 25, 20, 22)
+cidades <- c('São Paulo', 'Rio de Janeiro', 'Belo Horizonte', 'Salvador', 'Porto Alegre')
+temp_ano <- c(tri_1, tri_2, tri_3, tri_4)
+matriz_temp <- matrix(temp_ano, nrow = 4, byrow = TRUE)
+rownames(matriz_temp) <- c('1º Trimeste','2º Trimeste', '3º Trimeste', '4º Trimeste')
+colnames(matriz_temp) <- c(cidades)
+matriz_temp
+```
+
+## Aula 2 - Manipulando os dados
+
+```{r}
+minha_matriz <- matrix(1:6, nrow = 2, ncol = 3)
+print(minha_matriz)
+```
+
+```{r}
+meu_dataframe <- data.frame (
+  Nome = c('Ana', 'Bruna', 'Bárbara'),
+  Idade = c(20, 23, 26),
+  Salário = c(5000, 6000, 7000)
+)
+print(meu_dataframe)
+```
+
+### Projeto da aula
+
+Nesta aula, vamos utilizar uma tabela de vendas, contendo os valores das vendas de 5 colaboradores referentes a 6 meses de vendas.
+
+```{r}
+# Vetor com valores das vendas
+vendas_jan <- c(20, 18, 25, 16, 23)
+vendas_fev <- c(15, 20, 22, 18, 19)
+vendas_mar <- c(25, 23, 20, 17, 21)
+vendas_abr <- c(18, 15, 19, 20, 24)
+vendas_mai <- c(22, 25, 21, 15, 18)
+vendas_jun <- c(21, 22, 19, 17, 20)
+```
+
+```{r}
+# Nomes das pessoas
+pessoas <- c("Pedro Santos", "Carla Nunes", "Maria Eduarda", "Luiz Felipe", "Julio Costa")
+
+# Nomes dos meses
+meses <- c("Janeiro", "Fevereiro", "Marco", "Abril", "Maio", "Junho")
+```
+
+```{r}
+# Combinar as vendas
+vendas_semestre <- c(vendas_jan, vendas_fev, vendas_mar, vendas_abr, vendas_mai, vendas_jun)
+
+# Vendas de cada pessoa por mês (em milhares)
+matriz_vendas <- matrix(vendas_semestre, nrow = 5, byrow = FALSE)
+```
+
+```{r}
+# Nomear a matriz
+rownames(matriz_vendas) <- pessoas
+colnames(matriz_vendas) <- meses
+```
+
+```{r}
+# Exibir a matriz
+matriz_vendas
+```
+
+```{r}
+vendas_jan
+```
+
+```{r}
+vendas_jan [3]
+```
+
+```{r}
+matriz_vendas ['Pedro Santos', 'Marco']
+```
+
+```{r}
+matriz_vendas[1, ]
+```
+
+```{r}
+soma_linhas <- rowSums(matriz_vendas)
+soma_linhas
+```
+
+Vamos tentar descobrir o seguinte:
+
+-   Qual colaborador teve o maior faturamento nas vendas? R: Maria Eduarda
+
+    ```{r}
+    total_vendas <- rowSums(matriz_vendas)
+    total_vendas
+    ```
+
+```{r}
+matriz_vendas[3, ]
+```
+
+-   Qual mês teve maior faturamento? R: Março
+
+    ```{r}
+    total_colab <- colSums(matriz_vendas)
+    total_colab
+    ```
+
+```{r}
+matriz_vendas[ ,3]
+```
+
+```{r}
+matriz_total_colab <- cbind(matriz_vendas, total_vendas)
+matriz_total_colab <- rbind(matriz_vendas, total_colab)
+print(matriz_total_colab)
+```
+
+### Sequencias - Utilizando a função seq()
+
+```{r}
+sequencia1 <- seq(1, 29, by=2)
+print(sequencia1)
+```
+
+```{r}
+sequencia2 <- trunc(seq(100, 1, length.out = 10))
+print(sequencia2)
+```
+
+```{r}
+sequencia_data <- seq(Sys.Date(), by = '1 month', length.out = 12)
+print (sequencia_data)
+```
+
+```{r}
+sequencia3 <- seq(0, 1, length.out = 5)
+print(sequencia3)
+```
+
+```{r}
+# Matriz representando as vendas mensais (em milhares de unidades)
+dados_vendas <- matrix(c(50, 60, 45, 30, 55, 65, 40, 35, 60, 70, 55, 50), nrow = 3, byrow = TRUE)
+
+# Nomes das regiões e dos meses
+regioes <- c("Norte", "Sul", "Nordeste")
+meses <- c("Jan", "Fev", "Mar", "Abr")
+
+rownames(dados_vendas) <- regioes
+colnames(dados_vendas) <- meses
+
+dados_vendas
+```
+
+```{r}
+dados_vendas [2, 2]
+total_mes <- colSums(dados_vendas)
+total_mes
+total_regiao <- rowSums(dados_vendas)
+total_regiao
+```
+
+```{r}
+centro_oeste <- matrix(c(35, 40, 30, 25), nrow =1, byrow = TRUE)
+rownames(centro_oeste) <- c('Centro Oeste')
+colnames(centro_oeste) <- meses
+total_brasil <- rbind(dados_vendas, centro_oeste)
+print(total_brasil)
+```
+
+## Aula 3 - Estruturas condicionais e de repetição
+
+### Projeto da aula
+
+Suponha que estamos lidando com dados de um armazém que vende produtos eletrônicos e tem um estoque representado por uma matriz de preços unitários e quantidades em estoque.
+
+```{r}
+preco <- c(3500, 1500, 1000, 2500, 350)
+
+qtd_estoque <- c(10, 5, 20, 30, 7)
+
+preco_estoque <- c(preco, qtd_estoque)
+
+matriz_estoque <- matrix(preco_estoque, ncol = 2)
+
+rownames(matriz_estoque) <- c('Notebook', 'Tablet', 'Monitor', 'Smartphone', 'Headset')
+colnames(matriz_estoque) <- c('Produto', 'Estoque')
+
+matriz_estoque
+```
+
+A partir dessa matriz, vamos buscar descobrir o seguinte:
+
+-   Calcular o valor total em estoque.
+
+    ```{r}
+    total_estoque_valor <- matriz_estoque [, 1] * matriz_estoque [, 2]
+    matriz_estoque <- cbind(matriz_estoque, total_estoque_valor)
+    matriz_estoque
+    ```
+
+-   Identificar produtos com estoque baixo (menos de 15 unidades).
+
+    ```{r}
+    estoque_baixo <- matriz_estoque[, 2] < 15
+    matriz_estoque[estoque_baixo, ]
+    ```
+
+-   Classificar o valor total em estoque em alto ou baixo.
+
+    ```{r}
+    valor_total_estoque <- colSums(matriz_estoque)
+    alto_baixo <- ifelse (valor_total_estoque[3] >= 120000, 'Valor Total está Alto! Valor total: R$', 'Valor Total está Baixo! Valor total: R$') 
+    paste(alto_baixo, valor_total_estoque[3])
+    ```
+
+-   Aplicar desconto de 10% em todos os produtos do estoque.
+
+    ```{r}
+    for (u in 1:nrow(matriz_estoque)){
+      matriz_estoque[u, 1] <- matriz_estoque[u, 1] * 0.9
+    }
+    matriz_estoque
+    ```
+
+-   Descobrir qual o produto mais vendido.
+
+```{r}
+quantidade_mais_vendida <- 0
+indice_mais_vendido <- 0
+j <- 1
+
+while (j <= nrow(matriz_estoque) & quantidade_mais_vendida < 30){
+  if(matriz_estoque[j, 2] > quantidade_mais_vendida){
+    quantidade_mais_vendida <- matriz_estoque[j, 2]
+    indice_mais_vendido <- j
+  }
+  j <- j + 1
+}
+cat('Produto mais vendido: ', indice_mais_vendido)
+cat('Total em estoque: ', matriz_estoque[indice_mais_vendido, 2])
+```
+
+```{r}
+# for: Imprime os números de 1 a 10
+for (i in 1:10) {
+  print(i)
+}
+```
+
+```{r}
+# while: Imprime os números pares até 20
+h <- 2
+while (h <= 20) {
+  print(h)
+  h <- h + 2
+}
+```
+
+```{r}
+# repeat: Gera números aleatórios até que um seja maior que 0.9
+repeat {
+  num <- runif(1)
+  print(num)
+  if (num > 0.9) {
+    break
+  } 
+}
+```
+
+```{r}
+distancia <- 200
+velocidades <- c(5, 7, 10, 12, 15)
+for (velocidade in velocidades){
+  tempo_estimado <- distancia / velocidade
+  cat ('Tempo estimado:', round(tempo_estimado, 2), 'segundos - ')
+  if (tempo_estimado < 10){
+    cat ('Rápido')
+  } else if (tempo_estimado <= 20){
+    cat ('Bom desempenho')
+  } else {
+    cat ('Desempenho a melhorar')
+  }
+}
+```
+
+## Aula 4 - Funções matemáticas e estatísticas
+
+### Projeto da aula
+
+Vamos criar uma nova matriz de vendas. Dessa vez, vamos incluir a receita das vendas na matriz.
+
+```{r}
+dados_vendas <- matrix(c(
+  1230.75, 20, 24615,
+  840.46, 35, 29416.10,
+  110.20, 15, 1653,
+  519.67, 10, 5196.70,
+  650.90, 25, 16272.50
+
+), ncol = 3, byrow = TRUE)
+
+rownames(dados_vendas) <- c('Ar Condicinado', 'Cama', 'Mesa', 'Refrigerador', 'Sofa')
+colnames(dados_vendas) <- c("Preco", "Quantidade", "Receita")
+
+dados_vendas
+```
+
+A partir dessa matriz, vamos responder às seguintes :
+
+-   Quantos produtos com preço acima de 600 foram vendidos?
+
+    ```{r}
+    preco_acima <- dados_vendas[, 1] > 600
+    dados_vendas[preco_acima, ]
+    total_quantidade <- colSums(dados_vendas[preco_acima, ])
+    total_quantidade[2]
+    ```
+
+-   Qual a receita média das vendas?
+
+    ```{r}
+    soma_receita <- colSums(dados_vendas)
+    media_receita <- soma_receita[3] / 5
+    media_receita
+    ```
+
+    ```{r}
+    mean(dados_vendas[, 3])
+    ```
+
+-   Existe uma diferença muito grande entre a média e a mediana das receitas?
+
+    ```{r}
+    median(dados_vendas[, 3])
+    ```
+
+-   Qual o produto mais caro e qual o mais barato?
+
+    ```{r}
+    valor_maior <- which.max(dados_vendas[, 1])
+    which.max(dados_vendas[, 1])
+    dados_vendas[valor_maior, 1]
+
+    valor_menor <- which.min(dados_vendas[, 1])
+    which.min(dados_vendas[, 1])
+    dados_vendas[valor_menor, 1]
+    ```
+
+```{r}
+notas_alunos <- matrix(c(80, 95, 75, 60, 90, 85, 92, 88, 78, 65, 70, 85), nrow = 3, ncol = 4, byrow = TRUE)
+
+rownames(notas_alunos) <- c('Felipe', 'Carla', 'Tais')
+colnames(notas_alunos) <- c('Historia', 'Portugues', 'Ingles', 'Matematica')
+notas_alunos
+
+medias_alunos <- c()
+for (j in 1:nrow(notas_alunos)) {
+  medias_alunos[j] <- mean(notas_alunos[j, ])
+}
+medias_alunos
+```
+
+MÃO NA MASSA - EXERCÍCIOS
+
+```{r}
+temperaturas_diarias <- matrix (c(25.5, 28.2, 22.8, 30.3, 18.6, 20.7, 15.9), nrow = 1, ncol = 7, byrow = FALSE)
+names <- c('Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado')
+colnames(temperaturas_diarias) <- names
+temperaturas_diarias
+
+
+med_temperatura <- mean(temperaturas_diarias)
+med_temperatura
+
+med_int_temperatura <- round(med_temperatura)
+med_int_temperatura
+
+which.max(temperaturas_diarias[1, ])
+which.min(temperaturas_diarias[1, ])
+```
+
+## Aula 5 - Fatores
+
+```{r}
+cores <- c('Azul', 'Amarelo', 'Verde', 'Vermelho', 'Rosa')
+cores_fator <- factor(cores)
+print(cores_fator)
+levels(cores_fator)
+```
+
+```{r}
+educacao <- c('Médio', 'Fundamental', 'Superior', 'Fundamental', 'Pós-Graduação', 'Médio')
+educacao_fator <- factor(educacao, levels = c('Fundamental', 'Médio', 'Superior', 'Pós-Graduação'), ordered = TRUE)
+print(educacao_fator)
+```
+
+```{r}
+as.character(educacao_fator)
+```
+
+### Projeto da aula
+
+Suponha que você tenha um conjunto de dados que representa o status de entrega de diferentes produtos.
+
+```{r}
+status_entrega <- c("Entregue", "Em Trânsito", "Pendente", "Entregue", "Em Trânsito")
+
+nomes_produtos <- c("Smartphone", "Notebook", "Monitor", "Mouse", "Tablet")
+
+names(status_entrega) <- nomes_produtos
+
+status_entrega
+```
+
+```{r}
+status_fator <- factor(status_entrega, levels = c('Pendente', 'Em Trânsito', 'Entregue'), ordered = TRUE)
+status_fator
+```
+
+```{r}
+prioridade <- status_fator %in% c('Pendente', 'Em Trânsito')
+status_fator[prioridade]
+```
+
+```{r}
+soma_emtransito <- sum(status_fator == 'Em Trânsito')
+soma_pendente <- sum(status_fator == 'Pendente')
+soma_entregue <- sum(status_fator == 'Entregue')
+
+soma_emtransito
+soma_pendente
+soma_entregue
+```
+
+```{r}
+# Dados
+prioridade <- c("Alta", "Baixa", "Média", "Alta", "Baixa")
+
+# Criando o fator com níveis ordenados
+prioridade_fator <- factor(prioridade, levels = c("Baixa", "Média", "Alta"))
+
+print(prioridade_fator)
+```
+
+EXERCÍCIO
+
+```{r}
+pontualidade <- c(4, 5, 3, 4, 2)
+qualidade_comida <- c(5, 3, 4, 2, 5)
+atendimento <- c(3, 4, 5, 2, 4)
+
+fator_pontualidade <- factor(pontualidade, levels = 1:5, ordered = TRUE)
+fator_qualidade_comida <- factor(qualidade_comida, levels = 1:5, ordered = TRUE)
+fator_atendimento <- factor(atendimento, levels = 1:5, ordered = TRUE)
+
+as.numeric(pontualidade)
+as.numeric(qualidade_comida)
+as.numeric(atendimento)
+
+mean(pontualidade)
+mean(qualidade_comida)
+mean(atendimento)
+
+media_pont <- round(mean(pontualidade), 1)
+media_quali <- round(mean(qualidade_comida), 1)
+media_atendi <- round(mean(atendimento), 1)
+
+media_pont
+media_quali
+media_atendi
+
+which.max(c(media_pont, media_quali, media_atendi))
+which.min(c(media_pont, media_quali, media_atendi))
+```
+
+```{r}
+# 1. Média de Avaliação para Cada Categoria
+media_pontualidade <- round(mean(as.numeric(fator_pontualidade)), 1)
+media_qualidade_comida <- round(mean(as.numeric(fator_qualidade_comida)), 1)
+media_atendimento <- round(mean(as.numeric(fator_atendimento)), 1)
+
+cat("Média de pontualidade:", media_pontualidade, "\n")
+cat("Média de qualidade da comida:", media_qualidade_comida, "\n")
+cat("Média de atendimento:", media_atendimento, "\n")
+
+# 2. Categoria com Maior Média
+categoria_maior_media <- which.max(c(media_pontualidade, media_qualidade_comida, media_atendimento))
+cat("Categoria com maior média de avaliação:", categoria_maior_media, "\n")
+
+# 3. Categoria com Menor Média
+categoria_menor_media <- which.min(c(media_pontualidade, media_qualidade_comida, media_atendimento))
+cat("Categoria com menor média de avaliação:", categoria_menor_media, "\n")
+```
