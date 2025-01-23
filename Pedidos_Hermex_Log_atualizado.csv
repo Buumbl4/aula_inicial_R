@@ -1,0 +1,441 @@
+PedidoID,ClienteID,Status,ValorTotal,TransportadorID,Regiao,EnderecoPedido,TipoData,Data,Hora,CEP
+101,14,Entregue,1895.15,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-07-01,18:56:18,30100-000
+101,14,Entregue,1895.15,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-07-14,08:00:17,30100-000
+102,12,Entregue,2827.16,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-07-02,20:57:26,01300-000
+102,12,Entregue,2827.16,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-07-12,11:46:21,01300-000
+103,3,Entregue,2576.52,2,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataPedido,2024-07-03,17:18:26,69000-000
+103,3,Entregue,2576.52,2,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataEntrega,2024-07-22,08:57:49,69000-000
+104,7,Entregue,2820.98,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-07-04,08:11:38,88000-000
+104,7,Entregue,2820.98,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-07-21,05:59:59,88000-000
+105,20,Entregue,2693.72,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-07-05,10:50:35,30100-000
+105,20,Entregue,2693.72,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-07-19,02:15:03,30100-000
+106,9,Entregue,2405.18,2,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataPedido,2024-07-06,07:01:49,69000-000
+106,9,Entregue,2405.18,2,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataEntrega,2024-07-25,14:40:41,69000-000
+107,6,Entregue,1780.62,2,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataPedido,2024-07-07,09:25:10,69000-000
+107,6,Entregue,1780.62,2,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataEntrega,2024-07-18,19:46:14,69000-000
+108,12,Entregue,2838.51,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-07-08,14:27:11,90200-000
+108,12,Entregue,2838.51,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-07-21,09:06:39,90200-000
+109,8,Entregue,1807.53,1,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataPedido,2024-07-09,19:48:20,78000-000
+109,8,Entregue,1807.53,1,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataEntrega,2024-07-25,12:14:40,78000-000
+110,16,Em trânsito,2771.25,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-07-10,23:14:50,30100-000
+110,16,Em trânsito,2771.25,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,NA,NA,30100-000
+111,14,Entregue,1833.6,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-07-11,16:39:20,01300-000
+111,14,Entregue,1833.6,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-07-24,06:55:39,01300-000
+112,13,Entregue,2843.38,2,Nordeste,"Avenida Atlântica, 456, Meireles, Fortaleza, 60100-000",DataPedido,2024-07-12,13:41:32,60100-000
+112,13,Entregue,2843.38,2,Nordeste,"Avenida Atlântica, 456, Meireles, Fortaleza, 60100-000",DataEntrega,2024-07-29,16:36:39,60100-000
+113,3,Entregue,2444.73,1,Centro-Oeste,"Avenida Brasília, 456, Asa Norte, Brasília, 70000-000",DataPedido,2024-07-13,18:40:00,70000-000
+113,3,Entregue,2444.73,1,Centro-Oeste,"Avenida Brasília, 456, Asa Norte, Brasília, 70000-000",DataEntrega,2024-07-30,13:37:39,70000-000
+114,1,Entregue,2565.2,1,Centro-Oeste,"Avenida Brasília, 456, Asa Norte, Brasília, 70000-000",DataPedido,2024-07-14,15:51:12,70000-000
+114,1,Entregue,2565.2,1,Centro-Oeste,"Avenida Brasília, 456, Asa Norte, Brasília, 70000-000",DataEntrega,2024-07-28,09:53:29,70000-000
+115,8,Entregue,2537.74,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-07-15,21:59:37,90200-000
+115,8,Entregue,2537.74,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-07-26,21:38:59,90200-000
+116,19,Em trânsito,2719.95,2,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataPedido,2024-07-16,01:45:21,78000-000
+116,19,Em trânsito,2719.95,2,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataEntrega,NA,NA,78000-000
+117,10,Pendente,1906.17,1,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataPedido,2024-07-17,17:00:16,78000-000
+117,10,Pendente,1906.17,1,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataEntrega,NA,NA,78000-000
+118,19,Entregue,2412.58,1,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataPedido,2024-07-18,09:23:13,69000-000
+118,19,Entregue,2412.58,1,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataEntrega,2024-08-01,04:25:14,69000-000
+119,7,Pendente,2225.66,2,Nordeste,"Travessa dos Coqueiros, 789, Boa Viagem, Recife, 51000-000",DataPedido,2024-07-19,11:57:33,51000-000
+119,7,Pendente,2225.66,2,Nordeste,"Travessa dos Coqueiros, 789, Boa Viagem, Recife, 51000-000",DataEntrega,NA,NA,51000-000
+120,9,Entregue,2072.44,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-07-20,11:05:29,88000-000
+120,9,Entregue,2072.44,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-08-01,07:58:55,88000-000
+121,13,Entregue,2864.81,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-08-01,00:54:48,90200-000
+121,13,Entregue,2864.81,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-08-12,23:19:31,90200-000
+122,7,Entregue,1633.88,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-08-02,09:24:29,01300-000
+122,7,Entregue,1633.88,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-08-10,14:46:55,01300-000
+123,16,Entregue,1773.82,2,Norte,"Avenida Amazonas, 456, Aparecida, Belém, 66000-000",DataPedido,2024-08-03,05:10:29,66000-000
+123,16,Entregue,1773.82,2,Norte,"Avenida Amazonas, 456, Aparecida, Belém, 66000-000",DataEntrega,2024-08-17,05:43:21,66000-000
+124,3,Entregue,2156.37,1,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataPedido,2024-08-04,16:07:43,69000-000
+124,3,Entregue,2156.37,1,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataEntrega,2024-08-22,07:17:34,69000-000
+125,9,Entregue,2738.8,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-08-05,12:28:18,30100-000
+125,9,Entregue,2738.8,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-08-25,21:37:49,30100-000
+126,20,Em trânsito,2088.74,NA,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-08-06,05:54:09,22000-000
+126,20,Em trânsito,2088.74,NA,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,NA,NA,22000-000
+127,19,Entregue,2648.28,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-08-07,03:44:54,90200-000
+127,19,Entregue,2648.28,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-08-15,04:54:32,90200-000
+128,9,Entregue,2556.64,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-08-08,03:05:42,88000-000
+128,9,Entregue,2556.64,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-08-26,22:09:46,88000-000
+129,7,Entregue,2469.9,1,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataPedido,2024-08-09,18:10:57,69000-000
+129,7,Entregue,2469.9,1,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataEntrega,2024-08-20,10:09:36,69000-000
+130,12,Entregue,2097.04,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-08-10,16:38:53,01300-000
+130,12,Entregue,2097.04,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-08-17,12:13:24,01300-000
+131,1,Pendente,2915.26,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-08-11,14:28:26,01300-000
+131,1,Pendente,2915.26,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,NA,NA,01300-000
+132,16,Entregue,2645.07,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-08-12,03:03:47,90200-000
+132,16,Entregue,2645.07,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-08-28,21:34:39,90200-000
+133,7,Entregue,2409.89,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-08-13,03:38:43,22000-000
+133,7,Entregue,2409.89,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-08-25,01:19:44,22000-000
+134,14,Entregue,2660.65,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-08-14,15:16:19,30100-000
+134,14,Entregue,2660.65,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-09-02,02:23:24,30100-000
+135,1,Entregue,2988.11,1,Nordeste,"Rua dos Ventos, 123, Pituba, Salvador, 40000-000",DataPedido,2024-08-15,21:04:08,40000-000
+135,1,Entregue,2988.11,1,Nordeste,"Rua dos Ventos, 123, Pituba, Salvador, 40000-000",DataEntrega,2024-09-02,17:57:54,40000-000
+136,19,Entregue,2670.6,1,Nordeste,"Travessa dos Coqueiros, 789, Boa Viagem, Recife, 51000-000",DataPedido,2024-08-16,22:14:02,51000-000
+136,19,Entregue,2670.6,1,Nordeste,"Travessa dos Coqueiros, 789, Boa Viagem, Recife, 51000-000",DataEntrega,2024-08-31,09:48:25,51000-000
+137,1,Entregue,2305.4,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-08-17,17:41:25,22000-000
+137,1,Entregue,2305.4,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-08-24,22:16:13,22000-000
+138,13,Entregue,2862.62,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-08-18,14:25:58,88000-000
+138,13,Entregue,2862.62,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-09-04,18:59:26,88000-000
+139,10,Entregue,2594.45,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-08-19,04:07:09,80000-000
+139,10,Entregue,2594.45,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-09-05,21:53:06,80000-000
+140,10,Entregue,1504.96,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-08-20,14:23:29,80000-000
+140,10,Entregue,1504.96,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-09-05,03:17:42,80000-000
+141,3,Entregue,1652.31,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-08-21,15:55:04,30100-000
+141,3,Entregue,1652.31,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-09-08,13:22:24,30100-000
+142,20,Entregue,2982.6,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-08-22,20:59:39,90200-000
+142,20,Entregue,2982.6,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-09-09,03:41:38,90200-000
+143,12,Entregue,2455.13,1,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataPedido,2024-08-23,09:06:58,69000-000
+143,12,Entregue,2455.13,1,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataEntrega,2024-09-12,18:31:31,69000-000
+144,7,Entregue,2476.36,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-08-24,04:23:28,90200-000
+144,7,Entregue,2476.36,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-09-13,22:41:45,90200-000
+145,1,Entregue,2600.19,2,Norte,"Avenida Amazonas, 456, Aparecida, Belém, 66000-000",DataPedido,2024-08-25,01:13:24,66000-000
+145,1,Entregue,2600.19,2,Norte,"Avenida Amazonas, 456, Aparecida, Belém, 66000-000",DataEntrega,2024-09-14,09:19:26,66000-000
+146,8,Em trânsito,2922.61,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-08-26,12:14:19,80000-000
+146,8,Em trânsito,2922.61,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,NA,NA,80000-000
+147,9,Entregue,1878.18,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-08-27,19:13:28,01300-000
+147,9,Entregue,1878.18,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-09-14,16:34:02,01300-000
+148,10,Entregue,2616.06,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-08-28,23:53:27,88000-000
+148,10,Entregue,2616.06,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-09-10,15:05:09,88000-000
+149,12,Entregue,1885,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-08-29,15:17:00,80000-000
+149,12,Entregue,1885,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-09-08,22:00:00,80000-000
+150,14,Entregue,2490.85,1,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataPedido,2024-08-30,20:08:50,78000-000
+150,14,Entregue,2490.85,1,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataEntrega,2024-09-14,22:45:24,78000-000
+151,12,Entregue,2187.12,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-08-31,20:28:46,30100-000
+151,12,Entregue,2187.12,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-09-09,11:31:08,30100-000
+152,14,Entregue,2733.9,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-09-01,12:14:26,80000-000
+152,14,Entregue,2733.9,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-09-12,14:50:22,80000-000
+153,9,Entregue,2918.22,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-09-02,08:16:56,80000-000
+153,9,Entregue,2918.22,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-09-11,19:14:26,80000-000
+154,19,Entregue,1718.67,1,Nordeste,"Rua dos Ventos, 123, Pituba, Salvador, 40000-000",DataPedido,2024-09-03,16:06:37,40000-000
+154,19,Entregue,1718.67,1,Nordeste,"Rua dos Ventos, 123, Pituba, Salvador, 40000-000",DataEntrega,2024-09-16,19:38:40,40000-000
+155,6,Entregue,1595.22,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-09-04,08:27:53,22000-000
+155,6,Entregue,1595.22,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-09-15,09:54:59,22000-000
+156,13,Em trânsito,2925.08,2,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataPedido,2024-09-05,01:46:48,69000-000
+156,13,Em trânsito,2925.08,2,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataEntrega,NA,NA,69000-000
+157,7,Entregue,1867.47,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-09-06,20:56:37,88000-000
+157,7,Entregue,1867.47,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-09-19,08:31:00,88000-000
+158,10,Entregue,2160.87,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-09-07,15:04:35,01300-000
+158,10,Entregue,2160.87,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-09-15,21:58:37,01300-000
+159,16,Entregue,2788.91,1,Centro-Oeste,"Avenida Brasília, 456, Asa Norte, Brasília, 70000-000",DataPedido,2024-09-08,11:24:23,70000-000
+159,16,Entregue,2788.91,1,Centro-Oeste,"Avenida Brasília, 456, Asa Norte, Brasília, 70000-000",DataEntrega,2024-09-18,06:49:16,70000-000
+160,3,Entregue,2634.25,1,Nordeste,"Travessa dos Coqueiros, 789, Boa Viagem, Recife, 51000-000",DataPedido,2024-09-09,01:44:40,51000-000
+160,3,Entregue,2634.25,1,Nordeste,"Travessa dos Coqueiros, 789, Boa Viagem, Recife, 51000-000",DataEntrega,2024-09-24,15:32:31,51000-000
+161,6,Entregue,1822.42,2,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataPedido,2024-09-10,14:03:56,69000-000
+161,6,Entregue,1822.42,2,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataEntrega,2024-09-28,23:45:17,69000-000
+162,1,Entregue,1727.46,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-09-11,00:23:31,30100-000
+162,1,Entregue,1727.46,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-10-01,04:33:46,30100-000
+163,19,Entregue,1735.69,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-09-12,09:52:49,80000-000
+163,19,Entregue,1735.69,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-09-20,03:47:17,80000-000
+164,10,Entregue,2004.95,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-09-13,08:25:51,90200-000
+164,10,Entregue,2004.95,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-09-29,04:57:37,90200-000
+165,3,Entregue,2758.17,1,Norte,"Avenida Amazonas, 456, Aparecida, Belém, 66000-000",DataPedido,2024-09-14,22:07:51,66000-000
+165,3,Entregue,2758.17,1,Norte,"Avenida Amazonas, 456, Aparecida, Belém, 66000-000",DataEntrega,2024-09-29,13:24:02,66000-000
+166,20,Entregue,2588.06,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-09-15,18:40:12,22000-000
+166,20,Entregue,2588.06,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-10-01,04:25:02,22000-000
+167,12,Pendente,1987,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-09-16,10:48:37,22000-000
+167,12,Pendente,1987,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,NA,NA,22000-000
+168,6,Em trânsito,1785.98,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-09-17,10:35:17,30100-000
+168,6,Em trânsito,1785.98,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,NA,NA,30100-000
+169,6,Entregue,2708.46,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-09-18,19:30:53,01300-000
+169,6,Entregue,2708.46,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-09-28,20:10:11,01300-000
+170,3,Entregue,2786.08,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-09-19,13:57:34,80000-000
+170,3,Entregue,2786.08,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-10-07,01:33:52,80000-000
+171,8,Entregue,2551.92,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-09-20,15:36:19,22000-000
+171,8,Entregue,2551.92,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-10-08,12:39:47,22000-000
+172,19,Entregue,1554.44,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-09-21,03:32:34,01300-000
+172,19,Entregue,1554.44,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-10-04,22:08:58,01300-000
+173,10,Entregue,2691.01,2,Centro-Oeste,"Rua das Palmeiras, 123, Setor Oeste, Goiânia, 74000-000",DataPedido,2024-09-22,11:24:09,74000-000
+173,10,Entregue,2691.01,2,Centro-Oeste,"Rua das Palmeiras, 123, Setor Oeste, Goiânia, 74000-000",DataEntrega,2024-10-10,02:46:09,74000-000
+174,3,Pendente,2759.51,1,Norte,"Travessa dos Açaizeiros, 789, Cidade Nova, Rio Branco, 69900-000",DataPedido,2024-09-23,03:35:39,69900-000
+174,3,Pendente,2759.51,1,Norte,"Travessa dos Açaizeiros, 789, Cidade Nova, Rio Branco, 69900-000",DataEntrega,NA,NA,69900-000
+175,20,Entregue,2338.53,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-09-24,00:56:48,22000-000
+175,20,Entregue,2338.53,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-10-08,08:08:21,22000-000
+176,3,Pendente,2569.25,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-09-25,07:52:23,22000-000
+176,3,Pendente,2569.25,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,NA,NA,22000-000
+177,6,Entregue,1523.04,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-09-26,16:46:29,80000-000
+177,6,Entregue,1523.04,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-10-16,09:41:46,80000-000
+178,19,Entregue,2808.37,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-09-27,11:35:23,01300-000
+178,19,Entregue,2808.37,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-10-04,15:01:23,01300-000
+179,10,Entregue,1879.46,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-09-28,13:53:19,22000-000
+179,10,Entregue,1879.46,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-10-08,12:22:32,22000-000
+180,19,Entregue,1540.84,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-09-29,03:51:36,30100-000
+180,19,Entregue,1540.84,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-10-07,15:23:33,30100-000
+181,14,Entregue,1630.37,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-09-30,21:31:11,30100-000
+181,14,Entregue,1630.37,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-10-14,13:06:19,30100-000
+182,14,Entregue,2105.14,1,Centro-Oeste,"Avenida Brasília, 456, Asa Norte, Brasília, 70000-000",DataPedido,2024-10-01,13:40:05,70000-000
+182,14,Entregue,2105.14,1,Centro-Oeste,"Avenida Brasília, 456, Asa Norte, Brasília, 70000-000",DataEntrega,2024-10-11,06:13:48,70000-000
+183,10,Pendente,2766.34,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-10-02,19:07:22,01300-000
+183,10,Pendente,2766.34,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,NA,NA,01300-000
+184,10,Entregue,2465.22,1,Nordeste,"Avenida Atlântica, 456, Meireles, Fortaleza, 60100-000",DataPedido,2024-10-03,03:10:45,60100-000
+184,10,Entregue,2465.22,1,Nordeste,"Avenida Atlântica, 456, Meireles, Fortaleza, 60100-000",DataEntrega,2024-10-23,23:57:49,60100-000
+185,7,Entregue,1563.32,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-10-04,06:44:15,80000-000
+185,7,Entregue,1563.32,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-10-16,04:26:55,80000-000
+186,9,Entregue,2243.55,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-10-05,13:41:48,30100-000
+186,9,Entregue,2243.55,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-10-17,09:20:30,30100-000
+187,19,Pendente,1638.43,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-10-06,16:45:17,80000-000
+187,19,Pendente,1638.43,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,NA,NA,80000-000
+188,3,Entregue,2316.85,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-10-07,10:34:29,22000-000
+188,3,Entregue,2316.85,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-10-17,04:03:37,22000-000
+189,6,Entregue,2149.88,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-10-08,13:10:28,88000-000
+189,6,Entregue,2149.88,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-10-20,19:02:09,88000-000
+190,13,Entregue,2103.36,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-10-09,01:33:49,01300-000
+190,13,Entregue,2103.36,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-10-28,14:51:33,01300-000
+191,16,Entregue,2212.78,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-10-10,06:59:15,22000-000
+191,16,Entregue,2212.78,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-10-18,02:49:17,22000-000
+192,16,Entregue,1789.25,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-10-11,11:20:09,88000-000
+192,16,Entregue,1789.25,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-10-27,11:01:26,88000-000
+193,8,Entregue,1935.95,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-10-12,10:43:55,01300-000
+193,8,Entregue,1935.95,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-10-30,06:04:56,01300-000
+194,13,Pendente,1823.32,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-10-13,11:35:38,01300-000
+194,13,Pendente,1823.32,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,NA,NA,01300-000
+195,14,Entregue,2562.26,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-10-14,02:09:04,30100-000
+195,14,Entregue,2562.26,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-10-30,02:06:40,30100-000
+196,20,Pendente,2819.31,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-10-15,23:20:18,30100-000
+196,20,Pendente,2819.31,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,NA,NA,30100-000
+197,13,Pendente,1772.43,2,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataPedido,2024-10-16,05:33:39,78000-000
+197,13,Pendente,1772.43,2,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataEntrega,NA,NA,78000-000
+198,20,Pendente,2534.05,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-10-17,09:06:36,30100-000
+198,20,Pendente,2534.05,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,NA,NA,30100-000
+199,14,Entregue,2397.73,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-10-18,22:12:25,80000-000
+199,14,Entregue,2397.73,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-11-01,09:45:19,80000-000
+200,1,Entregue,2636.37,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-10-19,00:32:08,90200-000
+200,1,Entregue,2636.37,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-11-08,19:21:05,90200-000
+201,7,Em trânsito,1754.73,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-10-20,05:29:49,88000-000
+201,7,Em trânsito,1754.73,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,NA,NA,88000-000
+202,20,Pendente,1561.51,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-10-21,07:01:02,01300-000
+202,20,Pendente,1561.51,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,NA,NA,01300-000
+203,9,Entregue,2030.37,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-10-22,17:50:22,22000-000
+203,9,Entregue,2030.37,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-11-06,04:46:16,22000-000
+204,7,Entregue,2226.73,2,Norte,"Travessa dos Açaizeiros, 789, Cidade Nova, Rio Branco, 69900-000",DataPedido,2024-10-23,17:55:49,69900-000
+204,7,Entregue,2226.73,2,Norte,"Travessa dos Açaizeiros, 789, Cidade Nova, Rio Branco, 69900-000",DataEntrega,2024-11-12,18:53:14,69900-000
+205,3,Entregue,2868.12,2,Centro-Oeste,"Rua das Palmeiras, 123, Setor Oeste, Goiânia, 74000-000",DataPedido,2024-10-24,10:09:59,74000-000
+205,3,Entregue,2868.12,2,Centro-Oeste,"Rua das Palmeiras, 123, Setor Oeste, Goiânia, 74000-000",DataEntrega,2024-11-07,05:14:43,74000-000
+206,6,Entregue,2781.33,1,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataPedido,2024-10-25,22:35:08,78000-000
+206,6,Entregue,2781.33,1,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataEntrega,2024-11-05,17:37:46,78000-000
+207,9,Entregue,2922.65,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-10-26,15:21:50,01300-000
+207,9,Entregue,2922.65,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-11-14,09:49:09,01300-000
+208,10,Entregue,1544.22,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-10-27,03:38:34,22000-000
+208,10,Entregue,1544.22,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-11-04,13:29:16,22000-000
+209,14,Em trânsito,2958.79,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-10-28,09:09:04,01300-000
+209,14,Em trânsito,2958.79,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,NA,NA,01300-000
+210,8,Em trânsito,1631.54,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-10-29,07:31:37,90200-000
+210,8,Em trânsito,1631.54,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,NA,NA,90200-000
+211,20,Entregue,2001.32,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-10-30,01:07:46,30100-000
+211,20,Entregue,2001.32,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-11-15,05:49:49,30100-000
+212,16,Pendente,1860.96,2,Centro-Oeste,"Avenida Brasília, 456, Asa Norte, Brasília, 70000-000",DataPedido,2024-10-31,16:34:01,70000-000
+212,16,Pendente,1860.96,2,Centro-Oeste,"Avenida Brasília, 456, Asa Norte, Brasília, 70000-000",DataEntrega,NA,NA,70000-000
+213,12,Entregue,2889.76,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-11-01,00:31:57,01300-000
+213,12,Entregue,2889.76,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-11-19,20:17:51,01300-000
+214,3,Entregue,1803.82,2,Norte,"Avenida Amazonas, 456, Aparecida, Belém, 66000-000",DataPedido,2024-11-02,13:06:29,66000-000
+214,3,Entregue,1803.82,2,Norte,"Avenida Amazonas, 456, Aparecida, Belém, 66000-000",DataEntrega,2024-11-20,10:06:22,66000-000
+215,12,Entregue,1553.24,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-11-03,04:43:41,80000-000
+215,12,Entregue,1553.24,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-11-21,23:10:36,80000-000
+216,3,Pendente,2512.61,1,Centro-Oeste,"Rua das Palmeiras, 123, Setor Oeste, Goiânia, 74000-000",DataPedido,2024-11-04,18:36:45,74000-000
+216,3,Pendente,2512.61,1,Centro-Oeste,"Rua das Palmeiras, 123, Setor Oeste, Goiânia, 74000-000",DataEntrega,NA,NA,74000-000
+217,10,Entregue,2196.46,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-11-05,16:14:42,22000-000
+217,10,Entregue,2196.46,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-11-20,18:54:24,22000-000
+218,9,Entregue,2891.94,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-11-06,17:15:10,80000-000
+218,9,Entregue,2891.94,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-11-25,17:38:27,80000-000
+219,3,Entregue,2544.18,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-11-07,06:25:29,88000-000
+219,3,Entregue,2544.18,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-11-26,21:57:28,88000-000
+220,13,Entregue,1726.31,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-11-08,00:37:40,01300-000
+220,13,Entregue,1726.31,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-11-15,04:10:01,01300-000
+221,14,Em trânsito,2526.88,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-08-01,09:54:25,22000-000
+221,14,Em trânsito,2526.88,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,NA,NA,22000-000
+222,7,Entregue,1555.67,NA,Norte,"Travessa dos Açaizeiros, 789, Cidade Nova, Rio Branco, 69900-000",DataPedido,2024-08-02,13:30:44,69900-000
+222,7,Entregue,1555.67,NA,Norte,"Travessa dos Açaizeiros, 789, Cidade Nova, Rio Branco, 69900-000",DataEntrega,2024-08-15,20:15:15,69900-000
+223,19,Entregue,2923.26,1,Nordeste,"Travessa dos Coqueiros, 789, Boa Viagem, Recife, 51000-000",DataPedido,2024-08-03,15:24:09,51000-000
+223,19,Entregue,2923.26,1,Nordeste,"Travessa dos Coqueiros, 789, Boa Viagem, Recife, 51000-000",DataEntrega,2024-08-18,13:19:26,51000-000
+224,10,Entregue,2698.05,NA,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-08-04,07:07:52,30100-000
+224,10,Entregue,2698.05,NA,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-08-18,20:22:20,30100-000
+225,3,Entregue,2318.7,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-08-05,12:34:56,01300-000
+225,3,Entregue,2318.7,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-08-12,10:37:16,01300-000
+226,1,Entregue,2476.84,NA,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-08-06,18:08:14,90200-000
+226,1,Entregue,2476.84,NA,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-08-24,17:53:22,90200-000
+227,12,Entregue,2249.22,2,Nordeste,"Rua dos Ventos, 123, Pituba, Salvador, 40000-000",DataPedido,2024-08-07,18:26:49,40000-000
+227,12,Entregue,2249.22,2,Nordeste,"Rua dos Ventos, 123, Pituba, Salvador, 40000-000",DataEntrega,2024-08-21,22:56:39,40000-000
+228,16,Pendente,2918.32,NA,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-08-08,03:54:09,01300-000
+228,16,Pendente,2918.32,NA,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,NA,NA,01300-000
+229,6,Entregue,1721.34,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-08-09,03:24:34,01300-000
+229,6,Entregue,1721.34,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-08-26,15:56:20,01300-000
+230,3,Entregue,2574.61,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-08-10,02:11:32,30100-000
+230,3,Entregue,2574.61,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-08-19,14:15:09,30100-000
+231,12,Entregue,2749.63,NA,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-08-11,09:38:17,80000-000
+231,12,Entregue,2749.63,NA,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-08-18,15:16:33,80000-000
+232,9,Entregue,2567.39,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-08-12,07:57:44,80000-000
+232,9,Entregue,2567.39,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-08-26,08:47:48,80000-000
+233,9,Em trânsito,1726.22,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-08-13,18:38:46,01300-000
+233,9,Em trânsito,1726.22,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,NA,NA,01300-000
+234,19,Entregue,2782.88,2,Norte,"Travessa dos Açaizeiros, 789, Cidade Nova, Rio Branco, 69900-000",DataPedido,2024-08-14,15:59:35,69900-000
+234,19,Entregue,2782.88,2,Norte,"Travessa dos Açaizeiros, 789, Cidade Nova, Rio Branco, 69900-000",DataEntrega,2024-08-23,20:21:42,69900-000
+235,3,Entregue,2128.85,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-08-15,09:10:05,80000-000
+235,3,Entregue,2128.85,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-08-22,19:42:36,80000-000
+236,12,Entregue,1899.21,NA,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-08-16,08:54:42,30100-000
+236,12,Entregue,1899.21,NA,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-09-02,01:09:24,30100-000
+237,10,Entregue,2053.14,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-08-17,05:27:41,22000-000
+237,10,Entregue,2053.14,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-08-28,08:41:38,22000-000
+238,10,Entregue,2374.84,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-08-18,05:16:22,01300-000
+238,10,Entregue,2374.84,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-09-03,10:30:23,01300-000
+239,9,Pendente,1900.42,1,Norte,"Avenida Amazonas, 456, Aparecida, Belém, 66000-000",DataPedido,2024-08-19,01:15:15,66000-000
+239,9,Pendente,1900.42,1,Norte,"Avenida Amazonas, 456, Aparecida, Belém, 66000-000",DataEntrega,NA,NA,66000-000
+240,19,Entregue,2084.66,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-08-20,14:07:17,88000-000
+240,19,Entregue,2084.66,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-09-05,03:55:46,88000-000
+241,10,Entregue,1941.35,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-08-21,06:00:12,88000-000
+241,10,Entregue,1941.35,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-09-05,03:35:56,88000-000
+242,10,Em trânsito,2645.23,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-08-22,21:49:17,88000-000
+242,10,Em trânsito,2645.23,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,NA,NA,88000-000
+243,1,Em trânsito,1559.29,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-08-23,05:00:25,90200-000
+243,1,Em trânsito,1559.29,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,NA,NA,90200-000
+244,6,Entregue,2770.23,2,Nordeste,"Avenida Atlântica, 456, Meireles, Fortaleza, 60100-000",DataPedido,2024-08-24,22:44:17,60100-000
+244,6,Entregue,2770.23,2,Nordeste,"Avenida Atlântica, 456, Meireles, Fortaleza, 60100-000",DataEntrega,2024-09-08,00:32:45,60100-000
+245,3,Entregue,1986.57,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-08-25,13:38:15,30100-000
+245,3,Entregue,1986.57,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-09-08,13:19:28,30100-000
+246,12,Entregue,2418.1,NA,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-08-26,20:21:43,90200-000
+246,12,Entregue,2418.1,NA,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-09-13,10:46:53,90200-000
+247,7,Entregue,1555.94,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-08-27,06:37:57,30100-000
+247,7,Entregue,1555.94,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-09-04,21:57:06,30100-000
+248,12,Entregue,2692.37,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-08-28,02:53:51,30100-000
+248,12,Entregue,2692.37,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-09-04,03:41:44,30100-000
+249,3,Pendente,2939.19,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-08-29,13:26:41,30100-000
+249,3,Pendente,2939.19,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,NA,NA,30100-000
+250,10,Entregue,2571.23,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-08-30,00:43:24,30100-000
+250,10,Entregue,2571.23,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-09-12,06:09:18,30100-000
+251,8,Entregue,2976.88,NA,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-08-31,12:09:42,01300-000
+251,8,Entregue,2976.88,NA,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-09-20,13:20:51,01300-000
+252,19,Entregue,2211.35,NA,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-09-01,08:00:59,30100-000
+252,19,Entregue,2211.35,NA,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-09-15,05:33:37,30100-000
+253,13,Entregue,2881.7,2,Norte,"Avenida Amazonas, 456, Aparecida, Belém, 66000-000",DataPedido,2024-09-02,13:37:03,66000-000
+253,13,Entregue,2881.7,2,Norte,"Avenida Amazonas, 456, Aparecida, Belém, 66000-000",DataEntrega,2024-09-13,10:52:56,66000-000
+254,13,Entregue,2583.9,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-09-03,20:17:00,30100-000
+254,13,Entregue,2583.9,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-09-12,00:05:56,30100-000
+255,6,Em trânsito,2865.8,NA,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-09-04,05:08:53,22000-000
+255,6,Em trânsito,2865.8,NA,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,NA,NA,22000-000
+256,6,Entregue,2275.27,NA,Nordeste,"Avenida Atlântica, 456, Meireles, Fortaleza, 60100-000",DataPedido,2024-09-05,15:24:50,60100-000
+256,6,Entregue,2275.27,NA,Nordeste,"Avenida Atlântica, 456, Meireles, Fortaleza, 60100-000",DataEntrega,2024-09-19,05:32:46,60100-000
+257,8,Entregue,2266.94,NA,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataPedido,2024-09-06,09:52:02,78000-000
+257,8,Entregue,2266.94,NA,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataEntrega,2024-09-18,23:12:57,78000-000
+258,6,Entregue,1671.3,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-09-07,21:46:10,30100-000
+258,6,Entregue,1671.3,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-09-24,09:27:07,30100-000
+259,16,Entregue,2899.05,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-09-08,03:55:03,88000-000
+259,16,Entregue,2899.05,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-09-17,20:58:47,88000-000
+260,7,Entregue,2948.75,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-09-09,17:16:07,80000-000
+260,7,Entregue,2948.75,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-09-16,17:15:41,80000-000
+261,3,Entregue,2757.3,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-09-10,06:18:15,22000-000
+261,3,Entregue,2757.3,2,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-09-19,23:20:37,22000-000
+262,3,Entregue,2593.57,1,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataPedido,2024-09-11,10:48:59,69000-000
+262,3,Entregue,2593.57,1,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataEntrega,2024-09-22,01:58:38,69000-000
+263,13,Entregue,1716.35,1,Centro-Oeste,"Rua das Palmeiras, 123, Setor Oeste, Goiânia, 74000-000",DataPedido,2024-09-12,23:31:36,74000-000
+263,13,Entregue,1716.35,1,Centro-Oeste,"Rua das Palmeiras, 123, Setor Oeste, Goiânia, 74000-000",DataEntrega,2024-10-02,04:20:20,74000-000
+264,19,Entregue,2897.38,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-09-13,07:24:56,01300-000
+264,19,Entregue,2897.38,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-09-22,07:26:52,01300-000
+265,19,Entregue,2109.45,NA,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-09-14,13:27:38,22000-000
+265,19,Entregue,2109.45,NA,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-09-21,17:20:45,22000-000
+266,7,Entregue,2183.38,2,Norte,"Avenida Amazonas, 456, Aparecida, Belém, 66000-000",DataPedido,2024-09-15,04:29:33,66000-000
+266,7,Entregue,2183.38,2,Norte,"Avenida Amazonas, 456, Aparecida, Belém, 66000-000",DataEntrega,2024-09-26,02:09:20,66000-000
+267,6,Entregue,2496.67,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-09-16,22:02:17,90200-000
+267,6,Entregue,2496.67,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-10-02,12:02:15,90200-000
+268,13,Entregue,2734.39,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-09-17,08:13:39,88000-000
+268,13,Entregue,2734.39,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-09-30,18:39:00,88000-000
+269,10,Entregue,2372.5,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-09-18,10:53:41,88000-000
+269,10,Entregue,2372.5,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-10-08,18:53:38,88000-000
+270,13,Entregue,1900.19,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-09-19,18:06:36,90200-000
+270,13,Entregue,1900.19,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-10-02,05:17:30,90200-000
+271,19,Entregue,1970.05,1,Norte,"Travessa dos Açaizeiros, 789, Cidade Nova, Rio Branco, 69900-000",DataPedido,2024-09-20,03:19:54,69900-000
+271,19,Entregue,1970.05,1,Norte,"Travessa dos Açaizeiros, 789, Cidade Nova, Rio Branco, 69900-000",DataEntrega,2024-10-07,10:01:47,69900-000
+272,19,Entregue,2556.87,2,Norte,"Travessa dos Açaizeiros, 789, Cidade Nova, Rio Branco, 69900-000",DataPedido,2024-09-21,12:40:40,69900-000
+272,19,Entregue,2556.87,2,Norte,"Travessa dos Açaizeiros, 789, Cidade Nova, Rio Branco, 69900-000",DataEntrega,2024-10-06,09:59:38,69900-000
+273,16,Pendente,2266.91,1,Centro-Oeste,"Avenida Brasília, 456, Asa Norte, Brasília, 70000-000",DataPedido,2024-09-22,06:56:08,70000-000
+273,16,Pendente,2266.91,1,Centro-Oeste,"Avenida Brasília, 456, Asa Norte, Brasília, 70000-000",DataEntrega,NA,NA,70000-000
+274,19,Entregue,2109.11,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-09-23,09:34:10,90200-000
+274,19,Entregue,2109.11,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-10-09,19:48:13,90200-000
+275,19,Entregue,2188.89,NA,Centro-Oeste,"Avenida Brasília, 456, Asa Norte, Brasília, 70000-000",DataPedido,2024-09-24,01:07:25,70000-000
+275,19,Entregue,2188.89,NA,Centro-Oeste,"Avenida Brasília, 456, Asa Norte, Brasília, 70000-000",DataEntrega,2024-10-12,01:49:04,70000-000
+276,16,Em trânsito,2566.37,NA,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-09-25,10:21:30,80000-000
+276,16,Em trânsito,2566.37,NA,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,NA,NA,80000-000
+277,14,Entregue,1652.85,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-09-26,05:48:34,90200-000
+277,14,Entregue,1652.85,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-10-05,19:19:20,90200-000
+278,8,Entregue,1948.93,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-09-27,20:35:02,01300-000
+278,8,Entregue,1948.93,2,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-10-10,13:01:35,01300-000
+279,14,Entregue,2177.88,1,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataPedido,2024-09-28,23:09:17,78000-000
+279,14,Entregue,2177.88,1,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataEntrega,2024-10-05,22:40:46,78000-000
+280,16,Entregue,1512.12,NA,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataPedido,2024-09-29,04:00:21,78000-000
+280,16,Entregue,1512.12,NA,Centro-Oeste,"Travessa dos Buritis, 789, Jardim Goiás, Cuiabá, 78000-000",DataEntrega,2024-10-09,10:13:47,78000-000
+281,6,Em trânsito,1558.71,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-09-30,23:15:14,80000-000
+281,6,Em trânsito,1558.71,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,NA,NA,80000-000
+282,7,Entregue,2354.38,1,Centro-Oeste,"Rua das Palmeiras, 123, Setor Oeste, Goiânia, 74000-000",DataPedido,2024-10-01,15:50:11,74000-000
+282,7,Entregue,2354.38,1,Centro-Oeste,"Rua das Palmeiras, 123, Setor Oeste, Goiânia, 74000-000",DataEntrega,2024-10-11,10:47:06,74000-000
+283,10,Entregue,2558.17,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-10-02,09:15:26,90200-000
+283,10,Entregue,2558.17,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-10-22,00:23:43,90200-000
+284,7,Entregue,2294.47,NA,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-10-03,17:10:04,22000-000
+284,7,Entregue,2294.47,NA,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-10-14,11:51:28,22000-000
+285,6,Entregue,2164.2,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-10-04,07:14:00,01300-000
+285,6,Entregue,2164.2,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-10-17,08:10:23,01300-000
+286,19,Entregue,2308.22,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-10-05,15:02:27,22000-000
+286,19,Entregue,2308.22,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-10-18,22:47:32,22000-000
+287,14,Entregue,2709.08,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-10-06,08:12:39,22000-000
+287,14,Entregue,2709.08,1,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-10-25,03:37:32,22000-000
+288,16,Entregue,2451.23,NA,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-10-07,08:47:49,22000-000
+288,16,Entregue,2451.23,NA,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-10-24,04:23:21,22000-000
+289,7,Entregue,2893.49,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-10-08,10:01:08,90200-000
+289,7,Entregue,2893.49,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-10-27,00:44:48,90200-000
+290,13,Pendente,2590.09,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-10-09,13:48:17,30100-000
+290,13,Pendente,2590.09,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,NA,NA,30100-000
+291,13,Pendente,1867.62,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-10-10,10:15:02,80000-000
+291,13,Pendente,1867.62,1,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,NA,NA,80000-000
+292,1,Entregue,1822.29,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-10-11,14:47:57,30100-000
+292,1,Entregue,1822.29,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-10-24,01:43:16,30100-000
+293,19,Entregue,1587.99,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-10-12,19:10:51,90200-000
+293,19,Entregue,1587.99,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-10-29,03:10:18,90200-000
+294,20,Em trânsito,2473.05,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-10-13,03:33:08,01300-000
+294,20,Em trânsito,2473.05,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,NA,NA,01300-000
+295,12,Entregue,2753.36,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-10-14,23:15:06,30100-000
+295,12,Entregue,2753.36,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-10-26,12:57:07,30100-000
+296,19,Entregue,2617.37,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-10-15,11:59:12,88000-000
+296,19,Entregue,2617.37,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-11-02,07:17:30,88000-000
+297,7,Pendente,2227.15,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-10-16,20:11:15,90200-000
+297,7,Pendente,2227.15,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,NA,NA,90200-000
+298,14,Em trânsito,1643.75,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-10-17,10:12:49,30100-000
+298,14,Em trânsito,1643.75,1,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,NA,NA,30100-000
+299,14,Entregue,2880.21,1,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataPedido,2024-10-18,20:16:02,69000-000
+299,14,Entregue,2880.21,1,Norte,"Rua das Flores, 123, Centro, Manaus, 69000-000",DataEntrega,2024-11-06,01:26:04,69000-000
+300,14,Entregue,2540.39,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-10-19,16:10:12,01300-000
+300,14,Entregue,2540.39,1,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-11-08,21:52:52,01300-000
+301,20,Entregue,1541.21,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-10-20,19:03:29,80000-000
+301,20,Entregue,1541.21,2,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,2024-11-04,11:54:35,80000-000
+302,12,Em trânsito,2185.62,NA,Norte,"Travessa dos Açaizeiros, 789, Cidade Nova, Rio Branco, 69900-000",DataPedido,2024-10-21,15:39:44,69900-000
+302,12,Em trânsito,2185.62,NA,Norte,"Travessa dos Açaizeiros, 789, Cidade Nova, Rio Branco, 69900-000",DataEntrega,NA,NA,69900-000
+303,12,Entregue,2689.35,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-10-22,13:10:13,90200-000
+303,12,Entregue,2689.35,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-11-03,18:45:06,90200-000
+304,8,Entregue,2659.26,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-10-23,00:32:32,90200-000
+304,8,Entregue,2659.26,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-11-10,05:01:20,90200-000
+305,7,Entregue,2911.12,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-10-24,20:31:53,90200-000
+305,7,Entregue,2911.12,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-11-11,12:15:56,90200-000
+306,16,Entregue,1596.62,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-10-25,15:25:41,90200-000
+306,16,Entregue,1596.62,2,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-11-12,00:55:36,90200-000
+307,9,Entregue,2653.44,NA,Nordeste,"Travessa dos Coqueiros, 789, Boa Viagem, Recife, 51000-000",DataPedido,2024-10-26,22:04:42,51000-000
+307,9,Entregue,2653.44,NA,Nordeste,"Travessa dos Coqueiros, 789, Boa Viagem, Recife, 51000-000",DataEntrega,2024-11-13,14:42:16,51000-000
+308,9,Entregue,2994.95,NA,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-10-27,04:32:21,30100-000
+308,9,Entregue,2994.95,NA,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-11-06,10:44:29,30100-000
+309,13,Entregue,1735.89,NA,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataPedido,2024-10-28,12:48:20,01300-000
+309,13,Entregue,1735.89,NA,Sudeste,"Avenida Paulista, 456, Bela Vista, São Paulo, 01300-000",DataEntrega,2024-11-17,03:21:47,01300-000
+310,20,Em trânsito,2656.3,NA,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataPedido,2024-10-29,08:09:40,80000-000
+310,20,Em trânsito,2656.3,NA,Sul,"Rua das Araucárias, 123, Centro, Curitiba, 80000-000",DataEntrega,NA,NA,80000-000
+311,14,Em trânsito,2166.87,NA,Centro-Oeste,"Rua das Palmeiras, 123, Setor Oeste, Goiânia, 74000-000",DataPedido,2024-10-30,13:33:00,74000-000
+311,14,Em trânsito,2166.87,NA,Centro-Oeste,"Rua das Palmeiras, 123, Setor Oeste, Goiânia, 74000-000",DataEntrega,NA,NA,74000-000
+312,19,Entregue,2253.37,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-10-31,09:51:17,88000-000
+312,19,Entregue,2253.37,1,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,2024-11-16,02:57:05,88000-000
+313,13,Entregue,1906.61,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-11-01,12:25:39,30100-000
+313,13,Entregue,1906.61,2,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-11-14,07:48:27,30100-000
+314,19,Entregue,1939.13,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-11-02,09:21:15,90200-000
+314,19,Entregue,1939.13,1,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-11-20,16:37:45,90200-000
+315,8,Entregue,1675.29,NA,Nordeste,"Travessa dos Coqueiros, 789, Boa Viagem, Recife, 51000-000",DataPedido,2024-11-03,05:13:00,51000-000
+315,8,Entregue,1675.29,NA,Nordeste,"Travessa dos Coqueiros, 789, Boa Viagem, Recife, 51000-000",DataEntrega,2024-11-18,07:45:42,51000-000
+316,13,Entregue,1538.44,NA,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-11-04,08:10:17,22000-000
+316,13,Entregue,1538.44,NA,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-11-17,23:50:26,22000-000
+317,7,Entregue,2299.57,NA,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataPedido,2024-11-05,21:58:57,22000-000
+317,7,Entregue,2299.57,NA,Sudeste,"Rua da Praia, 123, Copacabana, Rio de Janeiro, 22000-000",DataEntrega,2024-11-25,20:36:46,22000-000
+318,12,Entregue,2338.71,NA,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataPedido,2024-11-06,03:46:23,90200-000
+318,12,Entregue,2338.71,NA,Sul,"Avenida Farrapos, 456, Floresta, Porto Alegre, 90200-000",DataEntrega,2024-11-13,06:42:57,90200-000
+319,1,Pendente,1590.16,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataPedido,2024-11-07,18:46:41,88000-000
+319,1,Pendente,1590.16,2,Sul,"Travessa das Hortênsias, 789, Centro, Florianópolis, 88000-000",DataEntrega,NA,NA,88000-000
+320,16,Entregue,2920.97,NA,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataPedido,2024-11-08,09:51:12,30100-000
+320,16,Entregue,2920.97,NA,Sudeste,"Travessa das Palmeiras, 789, Savassi, Belo Horizonte, 30100-000",DataEntrega,2024-11-23,22:53:40,30100-000

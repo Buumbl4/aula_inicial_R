@@ -1,0 +1,178 @@
+---
+title: "Aula 1"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+Instalando a Biblioteca Tidyverse:
+
+```{r}
+install.packages("tidyverse")
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+pedidos <- read.csv("Pedidos_Hermex_Log.csv")
+head(pedidos)
+```
+
+Selecionando as colunas de PedidoID e Status
+
+```{r}
+pedidos %>%
+  select(PedidoID, Status)
+```
+
+Selecionando colunas que começam com o termo "Data"
+
+```{r}
+pedidos %>%
+  select(starts_with("Data"))
+```
+
+Filtrando os pedidos do dia 01/07 à 01/08
+
+```{r}
+pedidos %>%
+  filter(DataPedido >= as.Date("2024-07-01") & DataPedido <= as.Date("2024-08-01"))
+```
+
+```{r}
+pedidos %>%
+  filter(DataPedido >= as.Date("2024-07-01") & DataPedido <= as.Date("2024-08-01"), Status != "Entregue")
+```
+
+Criando Nova Coluna
+
+```{r}
+pedidos %>%
+  mutate(Beneficios = ifelse(ValorTotal >= 2000, 'Liberado','Não Liberado'))
+```
+
+Mudando a Coluna de Transportadora
+
+```{r}
+pedidos %>%
+  mutate(TransportadorID = ifelse(is.na(TransportadorID), 'Particular', TransportadorID))
+```
+
+```{r}
+pedidos %>%
+  mutate(
+    DataPedido = as.Date(DataPedido),
+    DataEntrega = as.Date(DataEntrega),
+    TempoEntrega = as.numeric(difftime(DataEntrega, DataPedido, units = 'days'))
+  ) %>%
+  summarize(MediaTempoEntrega = mean(TempoEntrega, na.rm = TRUE))
+```
+
+```{r}
+percentual_pedidos_por_regiao <- pedidos %>%
+  group_by(Regiao)%>%
+  summarize(QuantidadePedidos = n())%>%
+mutate(Percentual = QuantidadePedidos / sum(QuantidadePedidos) * 100)
+
+print(percentual_pedidos_por_regiao)
+```
+
+```{r}
+pedidos <- pedidos %>%
+  pivot_longer(cols = c(DataPedido, DataEntrega),
+               names_to = 'TipoData',
+               values_to = 'Data')
+```
+
+```{r}
+head(pedidos)
+```
+
+```{r}
+pedidos <- pedidos%>%
+  separate(Data, into = c('Data', 'Hora'), sep = ' ')
+```
+
+```{r}
+pedidos
+```
+
+```{r}
+pedidos <- pedidos %>%
+  mutate(CEP = str_extract(EnderecoPedido, '\\d{5}-\\d{3}'))
+```
+
+```{r}
+head(pedidos)
+```
+
+```{r}
+str(pedidos)
+```
+
+```{r}
+pedidos$Data <- ymd(pedidos$Data)
+```
+
+```{r}
+str(pedidos)
+```
+
+```{r}
+grafico <- ggplot(percentual_pedidos_por_regiao, aes(x= Regiao, y= Percentual, fill = Regiao))+
+  geom_bar (stat = 'identity')+
+  labs(title = 'Porcentagem de Pedidos por Região',
+       x = 'Região',
+       y = 'Porcentagem (%)')+
+  theme_minimal()
+```
+
+```{r}
+print(grafico)
+```
+
+```{r}
+pedidos_agrupados <- pedidos%>%
+  mutate(MesAno = floor_date(Data, 'month')) %>%
+  group_by(MesAno) %>%
+  summarize(ValorTotalMensal = sum(ValorTotal, na.rm = TRUE))
+```
+
+```{r}
+grafico2 <- ggplot(pedidos_agrupados, aes(x= MesAno, y= ValorTotalMensal, fill = MesAno))+
+  geom_line (color = 'blue')+
+  labs(title = 'Valor Total dos Pedidos ao Longo do Tempo',
+       x = 'Data do Pedido',
+       y = 'Valor Total R$')+
+  theme_minimal()
+```
+
+```{r}
+print(grafico2)
+```
+
+```{r}
+write_csv(pedidos, 'Pedidos_Hermex_Log_atualizado.csv')
+```
